@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 22</title>
+</head>
+<body>
+    <script>
+        function primo(){
+            var n = parseInt(prompt("Digite um número:"))
+            var c = 0
+            var d = []
+            do{
+                if(n % c == 0){
+                    d.push(c)
+                }
+                c++
+            }while(c <= n)
+            if(d.length == 2){
+                alert(`${n} é um número primo!`)
+            }else{
+                alert(`${n} não é um número primo!`)
+            }
+            primo()
+        }
+        primo()
+    </script>
+</body>
+</html>

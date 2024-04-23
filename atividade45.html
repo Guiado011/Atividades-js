@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 45</title>
+</head>
+<body>
+    <script>
+        var is = []
+        var s = 0
+        for(let n = "..."; n != "fim";){
+            n = prompt("Digite o nome de uma pessoa:")
+            if(n != "fim"){
+                var i = parseInt(prompt("Digite a idade de uma pessoa:"))
+                is.push(i)
+                s += i
+            }
+        }
+        var m = s / is.length
+        alert(`A média das idades é ${m}`)
+    </script>
+</body>
+</html>

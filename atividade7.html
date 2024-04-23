@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+</head>
+<body>
+    <script>
+        function primo(){
+            var n = parseInt(prompt("Digite o valor de um número inteiro:"))
+            var c = 0
+            var nD = []
+            while(c <= n){
+                if(n % c == 0){
+                    nD.push(c)
+                }
+                c++
+            }
+            if(nD.length > 2){
+                alert(`${n} não é um número primo!`)
+            }else{
+                alert(`${n} é um número primo!`)
+            }
+            primo()
+        }
+        primo()
+    </script>
+</body>
+</html>

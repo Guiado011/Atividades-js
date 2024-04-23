@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+</head>
+<body>
+    <script>
+        var c = 1
+        var s = 0
+        var na = 0
+        var ns = [1]
+        while(ns.length <= 20){
+            na = c
+            c += s
+            ns.push(c)
+            s = na
+        }
+        alert(ns)
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6</title>
+</head>
+<body>
+    <script>
+        var n = parseInt(prompt("Digite o valor de um número:"))
+        var nD = []
+        var c = 1
+        while(c <= n){
+            if(n % c == 0){
+                nD.push(c)
+            }
+            c++
+        }
+        document.write(`Os números divisíveis por ${n} são:` + "<br>" + nD)
+    </script>
+</body>
+</html>

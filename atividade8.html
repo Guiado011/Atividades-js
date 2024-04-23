@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <script>
+        var n = parseInt(prompt("Digite o valor de um número:"))
+        var c = 1
+        var na = 0
+        var s = 0
+        var ns = [1]
+        while(c <= n){
+            na = c
+            c += s
+            ns.push(c)
+            s = na
+        }
+        alert(ns)
+    </script>
+</body>
+</html>

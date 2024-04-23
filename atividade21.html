@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 21</title>
+</head>
+<body>
+    <script>
+        var n = parseInt(prompt("Digite um número:"))
+        var c = 1
+        var d = []
+        do{
+            if(n % c == 0){
+                d.push(c)
+            }
+            c++
+        }while(c <= n)
+        document.write(`Os divisores de ${n} são:` + "<br>" + d)
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 25</title>
+</head>
+<body>
+    <script>
+        var s = na = 0
+        var c = 1
+        var f = [1]
+        do{
+            na = c
+            c += s
+            f.push(c)
+            s = na
+        }while(f.length <= 20)
+        alert(`${f}`)
+    </script>
+</body>
+</html>
